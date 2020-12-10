@@ -1,0 +1,121 @@
+button {
+  margin: 8px;
+}
+
+body {
+  background-image: linear-gradient(#252525, #0f0f0f);
+  color: #648dae;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app-container {
+  display: flex;
+  max-width: 95%;
+  background-color: #252525;
+}
+.search-container{
+  max-width: 20%;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin-left: 8px;
+}
+.tracks-results{
+  text-align: center;
+  width: 20%;
+  background-image: linear-gradient(#252525, #141414);
+
+}
+.song-card {
+  background-color: #3a3a3a;
+  text-align: center;
+  padding: 2px 2px;
+  margin: 40px;
+  border-radius: 3px;
+  box-shadow: 2px 5px 5px black;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+.playlists {
+  border-bottom: 1px solid black;
+  padding: 0px 8px;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 12px;
+}
+.playlists-container{
+  max-width: 20%;
+  padding: 10px;
+  background-color: #1a1a1a;
+ 
+}
+.features-container{
+  max-width: 20%;
+}
+.tracks-container{
+  max-width: 25%;
+}
+.start {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 400px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 60px; 
+  
+}
+a:link {
+  text-decoration: none;
+  color: #1DB954;
+  font-weight: bold;
+}
+a:visited {
+  text-decoration: none;
+  color: #1DB954;
+  font-weight: bold;
+}
+a:hover {
+  color:white
+}
+
+
+.playlists-container h3 {
+  text-align: center;
+}
+.no-bullets{
+  display:inline;
+  list-style-type:none;
+}
+button:hover {
+  background-color: #1DB954;
+  color: #252525;
+  border: 2px solid #252525;
+  transform: perspective(1px) translateZ(0);
+    box-shadow: 4 4 4px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.6s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+    
+}
+img { 
+  max-width: 238px;
+}
+button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: 2px solid #1DB954;
+  color: #1DB954;
+  font-size: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  overflow: hidden;
+  outline:none;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+
