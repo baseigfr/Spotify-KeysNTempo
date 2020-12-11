@@ -191,14 +191,14 @@ render() {
     keySet.set(2, "D");
     keySet.set(3, "D#");
     keySet.set(4, "E");
-    keySet.set(5, "E#");
-    keySet.set(6, "F");
-    keySet.set(7, "F#");
-    keySet.set(8, "G");
-    keySet.set(9, "G#");
-    keySet.set(10, "A");
-    keySet.set(11, "A#");
-    keySet.set(12, "B");
+    keySet.set(5, "F");
+    keySet.set(6, "F#");
+    keySet.set(7, "G");
+    keySet.set(8, "G#");
+    keySet.set(9, "A");
+    keySet.set(10, "A#");
+    keySet.set(11, "B");
+    keySet.set(12, "C");
 
 
 // for(let i = 0; i < this.state.playlistFeatures.length; i++) {
