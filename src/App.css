@@ -46,6 +46,11 @@ body {
   font-size: 14px;
   color: white;
 }
+td, th {
+  border-bottom: 1px solid black;
+  text-align: left;
+  padding: 0px;
+}
 p.song-card2 {
   margin-top:-20px;
   margin-bottom:-20px;
@@ -68,7 +73,8 @@ p.song-card2 {
   max-width: 20%;
 }
 .tracks-container{
-  max-width: 25%;
+  max-width: 30%;
+  color: white;
 }
 .start {
   text-align: center;

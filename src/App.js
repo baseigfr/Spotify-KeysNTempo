@@ -266,9 +266,9 @@ render() {
 
                               <tr key={i}>
                                   <td>{trackName.track.name}</td>
-                                  <td>by: {trackName.track.artists[0].name}</td>
-                                  <td>key: {keySet.get(trackName.data.key)} {majorMinor.get(trackName.data.mode)}</td>
-                                  <td>tempo: {Math.round(trackName.data.tempo)}</td>
+                                  <td>{trackName.track.artists[0].name}</td>
+                                  <td>{keySet.get(trackName.data.key)} {majorMinor.get(trackName.data.mode)}</td>
+                                  <td>{Math.round(trackName.data.tempo)}</td>
                               </tr>
                               
                           // <ul className="no-bullets" key={i}>
