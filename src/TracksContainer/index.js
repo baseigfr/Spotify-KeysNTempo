@@ -1,8 +1,5 @@
 import React, { Component } from 'react'
 
-
-// import EditTrackModal from '../EditTrackModal'
-
 import TrackList from '../TrackList'
 
 
@@ -123,47 +120,6 @@ setupBeforeUnloadListener = () => {
     }
 
 
-
-
-
-//   editTrack = (idOfTrackToEdit) => {
-//     console.log("you are trying to edit Track with id: ", idOfTrackToEdit)
-//     this.setState({
-//       idOfTrackToEdit: idOfTrackToEdit
-//     })
-//   }
-
-//   updateTrack = async (updatedTrackInfo) => {
-//     try {
-//       const url = process.env.REACT_APP_API_URL + "/tracks/" + this.state.idOfTrackToEdit
-
-//       const updateTrackResponse = await fetch(url, {
-//         credentials: 'include',
-//         method: 'PUT',
-//         body: JSON.stringify(updatedTrackInfo),
-//         headers: {
-//           'Content-Type': 'application/json'
-//         }
-//       })
-
-//       console.log("updateTrackResponse", updateTrackResponse)
-//       const updateTrackJson = await updateTrackResponse.json()
-//       console.log("updateTrackJson", updateTrackJson)
-
-//       if(updateTrackResponse.status === 200) {
-//         const tracks = this.state.tracks
-//         const indexOfTrackBeingUpdated = tracks.findIndex(Track => Track._id === this.state.idOfTrackToEdit)
-//         tracks[indexOfTrackBeingUpdated] = updateTrackJson
-//         this.setState({
-//           tracks: tracks,
-//           idOfTrackToEdit: -1 // close the modal
-//         })
-//       }
-
-//     } catch(err) {
-//       console.log("Error updating dog info: ", err)
-//     }
-//   }
   
 closeTrackModal = () => {
     this.setState({
@@ -173,34 +129,10 @@ closeTrackModal = () => {
 
 
 
-//   updatePlayer = async (updateTrackInfo) => {
-//     try {
-//       const url = process.env.REACT_APP_API_URL + "/tracks/" + this.state.idOfTrackToEditForPlayer
-//       const updatePlayerResponse = await fetch(url, {
-//         method: 'PUT',
-//         body: JSON.stringify(updateTrackInfo),
-//         headers: {
-//           'Content-Type': 'application.json'
-//         }
-//       })
-//       console.log("updatePlayerResponse", updatePlayerResponse)
-//       const updatePlayerJson = await updatePlayerResponse.json()
-//       console.log("updatePlayerJson", updatePlayerJson)
-//       if(updatePlayerResponse.status === 200) {
-//         const tracks = this.state.tracks
-//         const indexOfTrackBeingUpdated = tracks.findIndex(Track => Track._id === this.state.idOfTrackToEditForPlayer)
-//         tracks[indexOfTrackBeingUpdated] = updatePlayerJson
-//         this.setState({
-//           tracks: tracks,
-//         })
-//       }
-//     } catch(err) {
-//       console.log("Error adding player: ", err)
-//     }
-//   }
 
 
-  render() {
+
+render() {
     return (
       
       <React.Fragment>

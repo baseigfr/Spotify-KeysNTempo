@@ -11,19 +11,18 @@ export default function trackList(props) {
     
     const keySet = new Map();
     keySet.set(0, "C");
-    keySet.set(1, "C#");
+    keySet.set(1, "D Flat");
     keySet.set(2, "D");
-    keySet.set(3, "D#");
+    keySet.set(3, "E Flat");
     keySet.set(4, "E");
-    keySet.set(5, "E#");
-    keySet.set(6, "F");
-    keySet.set(7, "F#");
-    keySet.set(8, "G");
-    keySet.set(9, "G#");
-    keySet.set(10, "A");
-    keySet.set(11, "A#");
-    keySet.set(12, "B");
-
+    keySet.set(5, "F");
+    keySet.set(6, "F#");
+    keySet.set(7, "G");
+    keySet.set(8, "A Flat");
+    keySet.set(9, "A");
+    keySet.set(10, "B Flat");
+    keySet.set(11, "B");
+    keySet.set(12, "C");
     
     return(
   

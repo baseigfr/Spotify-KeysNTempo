@@ -132,13 +132,9 @@ componentDidUpdate = () => {
                 trackNames: data_obj
 
               })
-            
-            // data_obj = this.state.trackNames 
-          // console.log('inside FOR loop spotify api call', Date.now())
           })
         }
 
-        // console.log('playlist features log', this.state.playlistFeatures)
       },function (err) {
         console.error(err);
       });
@@ -147,11 +143,6 @@ componentDidUpdate = () => {
   getTrackFeatures = (event, songName, artistName) => {
   spotifyApi.getAudioFeaturesForTrack(`${event}`)
   .then((data) => {
-    // console.log(songName)
-    // console.log('by', artistName)
-    // console.log(data.key)
-    // console.log(data.mode)
-    // console.log(data.tempo)   Good for history
     
     const songBody = JSON.stringify({
 
@@ -166,7 +157,6 @@ componentDidUpdate = () => {
       const url = process.env.REACT_APP_API_URL + "/tracks/"
       fetch(url, {
         method: 'POST',
-        // mode: 'no-cors',
         headers: {
           'Content-Type': 'application/json'
         },
@@ -200,15 +190,6 @@ render() {
     keySet.set(11, "B");
     keySet.set(12, "C");
     
-
-
-// for(let i = 0; i < this.state.playlistFeatures.length; i++) {
-//   for(let j = 0; j < this.state.trackNames.length; j++) {
-//     if(this.state.trackNames[j].track.id === this.state.playlistFeatures[i].id) {
-//       return this.state.trackNames[]
-//     }
-//   }
-// }
 
     return (
     
