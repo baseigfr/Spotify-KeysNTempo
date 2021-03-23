@@ -259,7 +259,7 @@ render() {
                   
                               <div className='song-card' key={i}>
                                   <p><h4>{trackName.track.name}</h4></p>
-                                  <p><h4>by: {trackName.artists[0].name}</h4></p>
+                                  <p><h4>by: {trackName.track.artists[0].name}</h4></p>
                                   <p><h4>key: {keySet.get(trackName.data.key)} {majorMinor.get(trackName.data.mode)}</h4></p>
                                   <p><h4>tempo: {Math.round(trackName.data.tempo)}</h4></p>
                               </div>
