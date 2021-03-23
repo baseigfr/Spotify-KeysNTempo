@@ -145,5 +145,17 @@ button {
   border-radius: 3px;
   text-transform: uppercase;
 }
+.tracksClass {
+  width: 40%;
+}
+.artistClass{
+  width: 20%;
+}
+.keyClass{
+  width: 20%;
+}
+.tempoClass{
+  width: 20%;
+}
 
 
