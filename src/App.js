@@ -258,10 +258,10 @@ render() {
                   
                   
                               <div className='song-card2' key={i}>
-                                  {trackName.track.name}<br/>
-                                  by: {trackName.track.artists[0].name}<br/>
-                                  key: {keySet.get(trackName.data.key)} {majorMinor.get(trackName.data.mode)}<br/>
-                                  tempo: {Math.round(trackName.data.tempo)}<br/>
+                                  <p>{trackName.track.name}</p>
+                                  <p>by: {trackName.track.artists[0].name}</p>
+                                  <p>key: {keySet.get(trackName.data.key)} {majorMinor.get(trackName.data.mode)}</p>
+                                  <p>tempo: {Math.round(trackName.data.tempo)}</p>
                               </div>
                               
                           // <ul className="no-bullets" key={i}>

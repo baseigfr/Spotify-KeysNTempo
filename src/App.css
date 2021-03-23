@@ -47,7 +47,8 @@ body {
   color: white;
 }
 p.song-card2 {
-  margin:0px;
+  margin-top:-10px;
+  margin-bottom:-10px;
 }
 .playlists {
   border-bottom: 1px solid black;
