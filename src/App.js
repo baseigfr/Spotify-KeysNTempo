@@ -256,12 +256,20 @@ render() {
               <div className="tracks-container">
                   {this.state.trackNames.map((trackName, i) => (
                   
-                          <ul className="no-bullets" key={i}>
-                            <li>{trackName.track.name}</li>
-                            <li>{trackName.track.artists[0].name}</li>
-                            <li>{keySet.get(trackName.data.key)} {majorMinor.get(trackName.data.mode)}</li>
-                            <li>Tempo: {Math.round(trackName.data.tempo)}</li>
-                          </ul> 
+                  
+                              <div className='song-card' key={i}>
+                                  <p><h4>{trackName.track.name}</h4></p>
+                                  <p><h4>by: {trackName.artists[0].name}</h4></p>
+                                  <p><h4>key: {keySet.get(trackName.data.key)} {majorMinor.get(trackName.data.mode)}</h4></p>
+                                  <p><h4>tempo: {Math.round(trackName.data.tempo)}</h4></p>
+                              </div>
+                              
+                          // <ul className="no-bullets" key={i}>
+                          //   <li>{trackName.track.name}</li>
+                          //   <li>{trackName.track.artists[0].name}</li>
+                          //   <li>{keySet.get(trackName.data.key)} {majorMinor.get(trackName.data.mode)}</li>
+                          //   <li>Tempo: {Math.round(trackName.data.tempo)}</li>
+                          // </ul> 
                     
                   ))}
               </div> 
