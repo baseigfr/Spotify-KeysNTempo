@@ -49,7 +49,7 @@ body {
 td, th {
   border-bottom: 1px solid black;
   text-align: left;
-  padding: 0px;
+  padding: 0px 8px;
 }
 p.song-card2 {
   margin-top:-20px;
@@ -65,7 +65,7 @@ p.song-card2 {
 }
 .playlists-container{
   max-width: 20%;
-  padding: 10px;
+  padding: 8px;
   background-color: #1a1a1a;
  
 }
@@ -73,8 +73,12 @@ p.song-card2 {
   max-width: 20%;
 }
 .tracks-container{
+  padding: 8px;
   max-width: 30%;
   color: white;
+}
+th {
+  color: #648dae; 
 }
 .start {
   text-align: center;
