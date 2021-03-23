@@ -36,16 +36,18 @@ body {
   color: white;
 }
 .song-card2 {
+  background-color: #3a3a3a;
   text-align: left;
   padding: 2px 2px;
-  margin-bottom: 10px;
+  margin: 10px;
   border-radius: 3px;
+  box-shadow: 2px 5px 5px black;
   font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   color: white;
 }
 p.song-card2 {
-  margin:0;
+  margin:0px;
 }
 .playlists {
   border-bottom: 1px solid black;
