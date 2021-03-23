@@ -35,6 +35,18 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: white;
 }
+.song-card2 {
+  text-align: left;
+  padding: 2px 2px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: white;
+}
+p.song-card2 {
+  margin:0;
+}
 .playlists {
   border-bottom: 1px solid black;
   padding: 0px 8px;

@@ -257,7 +257,7 @@ render() {
                   {this.state.trackNames.map((trackName, i) => (
                   
                   
-                              <div className='song-card' key={i}>
+                              <div className='song-card2' key={i}>
                                   <p><h4>{trackName.track.name}</h4></p>
                                   <p><h4>by: {trackName.track.artists[0].name}</h4></p>
                                   <p><h4>key: {keySet.get(trackName.data.key)} {majorMinor.get(trackName.data.mode)}</h4></p>
