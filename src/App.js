@@ -254,15 +254,22 @@ render() {
               
               
               <div className="tracks-container">
+                <table>
+                  <tr>
+                    <th>Track</th>
+                    <th>Artist</th>
+                    <th>Key</th>
+                    <th>Tempo</th>
+                  </tr>
                   {this.state.trackNames.map((trackName, i) => (
                   
-                  
-                              <div className='song-card2' key={i}>
-                                  <p>{trackName.track.name}</p>
-                                  <p>by: {trackName.track.artists[0].name}</p>
-                                  <p>key: {keySet.get(trackName.data.key)} {majorMinor.get(trackName.data.mode)}</p>
-                                  <p>tempo: {Math.round(trackName.data.tempo)}</p>
-                              </div>
+
+                              <tr key={i}>
+                                  <td>{trackName.track.name}</td>
+                                  <td>by: {trackName.track.artists[0].name}</td>
+                                  <td>key: {keySet.get(trackName.data.key)} {majorMinor.get(trackName.data.mode)}</td>
+                                  <td>tempo: {Math.round(trackName.data.tempo)}</td>
+                              </tr>
                               
                           // <ul className="no-bullets" key={i}>
                           //   <li>{trackName.track.name}</li>
@@ -272,6 +279,7 @@ render() {
                           // </ul> 
                     
                   ))}
+                  </table>
               </div> 
                
             </React.Fragment>
