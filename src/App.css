@@ -74,11 +74,12 @@ p.song-card2 {
 }
 .tracks-container{
   padding: 8px;
-  max-width: 30%;
+  max-width: 40%;
   color: white;
 }
 th {
   color: #648dae; 
+  font-size: 1.17em;
 }
 .start {
   text-align: center;

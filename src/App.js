@@ -256,10 +256,10 @@ render() {
               <div className="tracks-container">
                 <table>
                   <tr>
-                    <h3><th>Track</th></h3>
-                    <h3><th>Artist</th></h3>
-                    <h3><th>Key</th></h3>
-                    <h3><th>Tempo</th></h3>
+                    <th>Track</th>
+                    <th>Artist</th>
+                    <th>Key</th>
+                    <th>Tempo</th>
                   </tr>
                   {this.state.trackNames.map((trackName, i) => (
                   
